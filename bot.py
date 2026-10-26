@@ -22,7 +22,7 @@ from telebot import apihelper
 TOKEN = os.getenv("BOT_TOKEN", "5325426517:AAECUrEK2Kny1TakJzOLfOUZIPVSsNyYuJs")
 
 # Все методы Bot API идут не на api.telegram.org, а на наш Worker.
-apihelper.API_URL = "https://orange-sun-eaa4.maratkld.workers.dev/bot{0}/{1}"
+# apihelper.API_URL = "https://orange-sun-eaa4.maratkld.workers.dev/bot{0}/{1}"
 
 # Тайм-ауты HTTP-запросов (секунды), чтобы медленный Worker не рвал polling.
 apihelper.CONNECT_TIMEOUT = 60
